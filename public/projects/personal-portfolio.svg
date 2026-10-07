@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="port-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#121720"/>
+    </linearGradient>
+    <linearGradient id="neon-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="card-surface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161e2b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f151f" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#port-bg)"/>
+
+  <!-- Glows -->
+  <circle cx="400" cy="180" r="220" fill="#2dd4bf" opacity="0.08" filter="blur(70px)"/>
+  <circle cx="700" cy="380" r="160" fill="#818cf8" opacity="0.06" filter="blur(60px)"/>
+
+  <!-- Browser window frame -->
+  <rect x="50" y="30" width="700" height="440" rx="14" fill="#131922" stroke="#253040" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <rect x="50" y="30" width="700" height="42" rx="14" fill="#18202c" stroke="#253040" stroke-width="1"/>
+  <circle cx="75" cy="51" r="5" fill="#f87171"/>
+  <circle cx="92" cy="51" r="5" fill="#fbbf24"/>
+  <circle cx="109" cy="51" r="5" fill="#34d399"/>
+  <!-- URL pill -->
+  <rect x="230" y="38" width="340" height="26" rx="13" fill="#0c1017" stroke="#232d3d" stroke-width="1"/>
+  <text x="400" y="55" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">https://mohamedshawky.dev</text>
+
+  <!-- Navigation Bar mockup -->
+  <text x="85" y="105" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">MS<tspan fill="#2dd4bf">.</tspan></text>
+  <text x="480" y="104" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">About</text>
+  <text x="535" y="104" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Experience</text>
+  <text x="615" y="104" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Projects</text>
+  <rect x="670" y="88" width="60" height="26" rx="13" fill="#2dd4bf" fill-opacity="0.2" stroke="#2dd4bf" stroke-opacity="0.5"/>
+  <text x="700" y="105" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Contact</text>
+
+  <!-- Hero Content Left -->
+  <!-- Status badge -->
+  <rect x="85" y="140" width="220" height="24" rx="12" fill="#1b2432" stroke="#293648" stroke-width="1"/>
+  <circle cx="97" cy="152" r="3.5" fill="#2dd4bf"/>
+  <text x="108" y="156" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Available for work &amp; projects</text>
+
+  <!-- Big Name -->
+  <text x="85" y="205" fill="#ffffff" font-family="system-ui, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">Mohamed Shawky</text>
+  <text x="85" y="232" fill="#2dd4bf" font-family="monospace" font-size="16" font-weight="600">Frontend Developer</text>
+
+  <text x="85" y="265" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">I build modern, responsive and user-friendly web applications</text>
+  <text x="85" y="285" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">with clean React and Tailwind architectures.</text>
+
+  <!-- Buttons -->
+  <rect x="85" y="315" width="135" height="36" rx="18" fill="#f1f5f9"/>
+  <text x="152" y="338" fill="#0f172a" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">View Projects →</text>
+
+  <rect x="232" y="315" width="115" height="36" rx="18" fill="#1b2432" stroke="#2c394c" stroke-width="1"/>
+  <text x="290" y="338" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Contact Me</text>
+
+  <!-- Hero Image Right -->
+  <circle cx="585" cy="245" r="115" fill="#2dd4bf" fill-opacity="0.12" filter="blur(25px)"/>
+  <circle cx="585" cy="245" r="95" fill="#17202c" stroke="#2dd4bf" stroke-opacity="0.4" stroke-width="2"/>
+  <!-- Avatar silhouette / geometric artwork -->
+  <circle cx="585" cy="210" r="32" fill="#2dd4bf" fill-opacity="0.3"/>
+  <path d="M 525 295 C 525 245, 645 245, 645 295 Z" fill="#2dd4bf" fill-opacity="0.3"/>
+  <circle cx="585" cy="245" r="95" fill="none" stroke="#2a384c" stroke-width="1"/>
+
+  <!-- Floating Tech Badges -->
+  <rect x="85" y="390" width="75" height="28" rx="8" fill="url(#card-surface)" stroke="#263344" stroke-width="1"/>
+  <text x="122" y="408" fill="#cbd5e1" font-family="monospace" font-size="11" text-anchor="middle">React.js</text>
+
+  <rect x="170" y="390" width="85" height="28" rx="8" fill="url(#card-surface)" stroke="#263344" stroke-width="1"/>
+  <text x="212" y="408" fill="#cbd5e1" font-family="monospace" font-size="11" text-anchor="middle">JavaScript</text>
+
+  <rect x="265" y="390" width="75" height="28" rx="8" fill="url(#card-surface)" stroke="#263344" stroke-width="1"/>
+  <text x="302" y="408" fill="#cbd5e1" font-family="monospace" font-size="11" text-anchor="middle">Tailwind</text>
+
+  <rect x="350" y="390" width="70" height="28" rx="8" fill="url(#card-surface)" stroke="#263344" stroke-width="1"/>
+  <text x="385" y="408" fill="#cbd5e1" font-family="monospace" font-size="11" text-anchor="middle">HTML5</text>
+
+  <rect x="430" y="390" width="65" height="28" rx="8" fill="url(#card-surface)" stroke="#263344" stroke-width="1"/>
+  <text x="462" y="408" fill="#cbd5e1" font-family="monospace" font-size="11" text-anchor="middle">CSS3</text>
+</svg>
